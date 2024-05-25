@@ -43,13 +43,3 @@ please go to following link
         Method: GET
         Response: JSON containing the top 5 selling items of the last month, ordered by total quantity sold.
 
-## Build
-
-The application can be built using the following command:
-
-```
-gradlew clean build
-```
-```
-gradlew bootBuildImage --imageName=com.wsd.ecommerce.task/wsd-task
-```
